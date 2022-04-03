@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face {
+	font-family: 'FonteLogo';
+	src:  url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+			font-family: Arial, sans-serif;
+			background: url("../_imagens/background.jpg");
+		}
+
+	header#cabecalho {
+			position: absolute;
+			left: 0px;
+			top: -20px;
+			width: 1263px;
+			height: 12vh;
+			background-color: #000000;
+			display: flex;
+			align-items: center;
+	}
+
+	header#cabecalho h1 {
+			font-family: 'FonteLogo', sans-serif;
+			font-size: 25pt;
+			color: #ffffff;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+			padding: 10px;
+			margin-bottom: 0px;
+	}
+
+	nav#menu {
+			display: block;
+		}
+
+		nav#menu ul {
+			list-style: none;
+			text-transform: uppercase;
+			position: absolute;
+			top: 0px;
+			left: 850px;
+			font-family: 'Titillium Web';
+		}
+
+		nav#menu li {
+			display: inline-block;
+			background-color: #000000;
+			padding: 10px;
+			margin: 2px;
+			transition: background-color 1s;
+		}
+
+		nav#menu li:hover {
+			background-color: #ffffff;
+		}
+
+		nav#menu h1{
+			display: none;
+		}
+
+		nav#menu a {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		nav#menu a:hover {
+			color:  #000000;
+			text-decoration: underline;
+		}
+
+		div#interface {
+			width: 800px;
+			height: 450px;
+			background-color: #000000;
+			margin: 120px auto 80px auto;
+			box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.5);
+			padding: 10px;
+
+		}
+
+		img#icone {
+			box-shadow:  1px 1px 4px black;
+		}
+
+		div#interface h1 {
+			color: #ffffff;
+		}
+
+		p {
+			text-align: justify;
+			text-indent: 50px;
+			color: #ffffff;
+		}
+
+
+		.links {
+			margin-top: -10px;
+		}
+
+		div#interface h1 {
+			font-family: 'FonteLogo';
+			font-size: 25pt;
+			text-align: center;
+		}
+
+		section#corpo {
+			display: block;
+			width:  400px;
+			float: left;
+			border-right: 1px solid #606060;
+			padding-right: 15px;
+
+		}
+
+		aside#lateral {
+			display: block;
+			width: 350px;
+			float: right;
+			padding: 10px;
+			margin-top: -10px;
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		}
+
+		form {
+			background-color: #ffffff;
+			text-align: center;
+			padding: 10px;
+		}
+
+		a {
+			color: #969696;
+			text-decoration: none;
+		}
+
+		footer#rodape {
+			clear: both;
+			border-top: 1px solid #656565;
+			margin-left: -50px;
+		}
+
+		footer#rodape p {
+			text-align: center;
+			color: #656565;
+			font-size: 10pt;
+		}
